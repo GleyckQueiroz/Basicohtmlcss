@@ -1,0 +1,50 @@
+.container{
+  position: absolute;
+  width: 67%;
+  border-right: 5px solid black;
+}
+.title{
+  position: relative;
+  left: 50%;
+  transform: translateX(-60%);
+  margin-top: 110px;
+  display: inline-block;
+  padding: 5px 25px;
+  text-align: center;
+  background-color: var(--color-black-second);
+  box-shadow: 10px 10px 0px #000;
+}
+.title > h1{
+  font-family: var(--font-title);
+  color: var(--base-color-first);
+  font-size: 2em;
+  line-height: 60px;
+  text-shadow: 5px 5px black;
+}
+.title > h2{
+  font-family: var(--font-title);
+  color: var(--base-color-third);
+  text-shadow: 5px 5px black;
+}
+.containerbutton{
+  display: flex;
+  justify-content: center;
+}
+.button{
+  display: inline-block;
+  width: 140px;
+  margin-top: 30px;
+  margin-right: 100px;
+  padding: 0px 20px;
+  height: 50px;
+  line-height: 50px;
+  background-color: var(--base-color-first);
+  color: #fff;
+  font-family: var(--font-subtitle);
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 5px 5px 0px black; 
+}
+.button:hover{
+  background-color: var(--status-color-four);
+}

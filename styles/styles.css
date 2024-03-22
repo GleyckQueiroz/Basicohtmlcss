@@ -1,7 +1,7 @@
 @charset "UTF-8";
 :root{
   --color-black-first: #000;
-  --color-black-first: #3a4042;
+  --color-black-second: #3a4042;
   --color-black-third: #828282;
   --base-color-first: #f25a70;
   --base-color-second: #7c5e99;
@@ -38,7 +38,7 @@ header > .menu{
   color: var(--base-color-third);
   font-family: var(--font-subtitle);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1.06em;
   font-weight: 500;
   margin-right: 30px;
 }
