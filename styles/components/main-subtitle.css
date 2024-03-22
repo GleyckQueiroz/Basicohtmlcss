@@ -1,4 +1,4 @@
-.title > h2{
+#box > h2{
   font-family: var(--font-title);
   color: var(--base-color-third);
   text-shadow: 5px 5px black;

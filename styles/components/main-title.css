@@ -1,4 +1,4 @@
-.title > h1 {
+#box > h1 {
   font-family: var(--font-title);
   color: var(--base-color-first);
   font-size: 2em;
