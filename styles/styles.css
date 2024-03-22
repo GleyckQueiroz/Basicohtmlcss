@@ -1,0 +1,57 @@
+@charset "UTF-8";
+:root{
+  --color-black-first: #000;
+  --color-black-first: #3a4042;
+  --color-black-third: #828282;
+  --base-color-first: #f25a70;
+  --base-color-second: #7c5e99;
+  --base-color-third: #fff;
+  --status-color-first: #ba1f33;
+  --status-color-second: #ceb02a;
+  --status-color-third: #62c370;
+  --status-color-four: #5451A6;
+  --font-title: "Press Start 2P", monospace;
+  --font-subtitle: "Fira Code", cursive;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--base-color-second);
+  padding: 10px;
+  border-bottom: 10px solid black;
+}
+#logo{
+  border-radius: 20%;
+}
+header > .menu{
+  display: inline-block;
+  text-align: right;
+}
+.dott:before{
+  content: "";
+  background-color: var(--base-color-first);
+  width: 10px;
+  height: 10px;
+  margin-right: 20px;
+}
+.menu > a{
+  color: var(--base-color-third);
+  font-family: var(--font-subtitle);
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+#cv{
+  display: inline-block;
+  background-color: var(--base-color-first);
+  padding: 0px 20px;
+  line-height: 60px;
+  height: 60px;
+  box-shadow: 5px 5px 0px black;
+  margin-right: 0;
+  margin-left: 10px;
+}
+#cv:hover{
+  background-color: var(--status-color-four);
+}
