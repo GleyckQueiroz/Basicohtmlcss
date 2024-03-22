@@ -1,7 +1,0 @@
-#box > h1 {
-  font-family: var(--font-title);
-  color: var(--base-color-first);
-  font-size: 2em;
-  line-height: 60px;
-  text-shadow: 5px 5px black;
-}

@@ -1,7 +1,24 @@
 #box{
+  display: inline-block;
   background-color: var(--color-black-second);
-  width: 630px;
-  height: 184px;
+  padding: 42px 42px;
   box-shadow: 10px 10px 0px #000000;
   text-align: center;
+}
+
+#box > h1 {
+  font-family: var(--font-title);
+  font-size: 2em;
+  color: var(--base-color-first);
+  font-size: 2em;
+  line-height: 60px;
+  text-shadow: 5px 5px black;
+  margin-bottom: 20px;
+}
+
+#box > h2{
+  font-family: var(--font-title);
+  font-size: 1.8em;
+  color: var(--base-color-third);
+  text-shadow: 5px 5px black;
 }
