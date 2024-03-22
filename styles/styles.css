@@ -42,16 +42,3 @@ header > .menu{
   font-weight: 500;
   margin-right: 30px;
 }
-#cv{
-  display: inline-block;
-  background-color: var(--base-color-first);
-  padding: 0px 20px;
-  line-height: 60px;
-  height: 60px;
-  box-shadow: 5px 5px 0px black;
-  margin-right: 0;
-  margin-left: 10px;
-}
-#cv:hover{
-  background-color: var(--status-color-four);
-}

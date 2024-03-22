@@ -14,26 +14,3 @@
   background-color: var(--color-black-second);
   box-shadow: 10px 10px 0px #000;
 }
-
-.containerbutton{
-  display: flex;
-  justify-content: center;
-}
-.button{
-  display: inline-block;
-  width: 140px;
-  margin-top: 30px;
-  margin-right: 100px;
-  padding: 0px 20px;
-  height: 50px;
-  line-height: 50px;
-  background-color: var(--base-color-first);
-  color: #fff;
-  font-family: var(--font-subtitle);
-  text-decoration: none;
-  text-align: center;
-  box-shadow: 5px 5px 0px black; 
-}
-.button:hover{
-  background-color: var(--status-color-four);
-}
