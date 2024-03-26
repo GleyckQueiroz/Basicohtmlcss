@@ -1,6 +1,9 @@
 #buttonCV{
   display: inline-block;
-  background-color: var(--base-color-first);
+  font-family: "Fira Code", cursive;
+  color: #fff;
+  text-decoration: none;
+  background-color: #f25a70;
   padding: 0px 20px;
   line-height: 60px;
   height: 60px;
@@ -9,5 +12,5 @@
   margin-left: 10px;
 }
 #buttonCV:hover{
-  background-color: var(--status-color-four);
+  background-color: #5451A6;
 }

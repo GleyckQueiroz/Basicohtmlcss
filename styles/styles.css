@@ -13,32 +13,5 @@
   --font-title: "Press Start 2P", monospace;
   --font-subtitle: "Fira Code", cursive;
 }
-header{
-  display: flex;
-  justify-content: space-between;
-  background-color: var(--base-color-second);
-  padding: 10px;
-  border-bottom: 10px solid black;
-}
-#logo{
-  border-radius: 20%;
-}
-header > .menu{
-  display: inline-block;
-  text-align: right;
-}
-.dott:before{
-  content: "";
-  background-color: var(--base-color-first);
-  width: 10px;
-  height: 10px;
-  margin-right: 20px;
-}
-.menu > a{
-  color: var(--base-color-third);
-  font-family: var(--font-subtitle);
-  text-decoration: none;
-  font-size: 1.06em;
-  font-weight: 500;
-  margin-right: 30px;
-}
+
+
